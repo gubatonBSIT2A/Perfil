@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- for Iconscount CSS  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!-- for CSS -->
+    <link rel="stylesheet" href="login.css">
+
+    <title>Form</title>
+</head>
+<body>
+    <div class="container">
+    
+    <!-- for error -->
+    <div id="error"></div>
+    <!-- For login -->
+    <div class="forms">
+    <form id ="form" action="/" method="GET">
+        <span class="title">Login Admin</span>
+        
+        <div>
+            <div class = "input-field">
+            <input id="name" placeholder="Enter Email" name="name" type="text" required>
+            <i class="uil uil-envelope"></i>
+        </div>
+        </div>
+        <div>
+            <div class = "input-field">
+            <input id="passwrod" placeholder="Enter Password" name="password" type="password" required>
+            <i class="uil uil-lock-alt"></i>
+        </div>
+        
+        <div class = "input-field button">
+            <input type="button" value="Login" required>
+    </div>
+    </div>
+    </form>
+</body>
+</html>

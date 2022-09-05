@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #e8eef5;
+    width: 100%;
+}
+/* For the menu */
+.side-menu{
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background-color: #283342;
+    transition: all 0.5s ease;
+}
+.side-menu.active{
+    width: 60px;
+
+}
+.side-menu .titles{
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+    background-color:#1D242E;
+}
+.side-menu .titles .logo{
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.side-menu .nav-links{
+    margin-top: 16px;
+}
+.side-menu .nav-links li{
+    height: 50px;
+    width: 100%;
+    list-style-type:none;
+}
+.side-menu .nav-links li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    
+}
+.side-menu .nav-links li a:hover{
+    background:#1D242E;
+}
+.side-menu .nav-links li a i{
+    min-width: 60px;
+    height: 100%;
+   text-align: center;
+   color: azure;
+   font-size: 20px;
+   padding-top: 5px;
+}
+.side-menu .nav-links li a .dash{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+/* For the upper title */
+.Upper{
+    background: #e8eef5 ;
+    position: relative;
+    min-height: 100vh;
+    left: 240px;
+    height: 100%;
+    width: 100%;
+
+}
+.Upper nav{
+    height: 80px;
+    width: 100%;
+    left: 240px;
+    background-color: rgb(243, 242, 242) ;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+} 
+.Upper nav .sidebarBut {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Upper nav .sidebarBut span{
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.Upper .home-content{
+    position: relative;
+}
+.home-content .down button{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    background-color: #e8eef5;
+    border: 2px solid #1D242E;
+    padding: 15px 32px;
+
+}
+/* For the Box */
+.Upper .home-content .box1 {
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 12px;
+    flex-direction: row;
+    width: max-content;
+}
+.home-content .overview-boxes .box1 .leftside{
+    float: left;
+    padding: 30px;
+    margin: 30px;
+    border: 1px solid rgb(233, 136, 71);
+}
+.home-content .overview-boxes .box1 .leftside i{
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-content .overview-boxes .box1 .leftside .pink{
+    color: #FF3294;
+}
+.home-content .overview-boxes .box1 .leftside .yellow{
+    color:#FFD809;
+}
+.home-content .overview-boxes .box1 .leftside .blue{
+    color: #03A9F5;
+}
+.home-content .overview-boxes .box1 .leftside .red{
+    color:#F0483E;
+}
+
+.home-content .overview-boxes .box1 .leftside span{
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
+}
+/* For the bottom text first lvl */
+.bottoms{
+    background: #ffffff;
+    margin-top: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+.bottoms .bottom .one{
+    border: 2px solid #1D242E;
+    width: 500px;
+    margin: 30px;
+}
+.bottoms .bottom{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-radius: 12px;
+    flex-direction: row;
+    width: max-content;
+    margin: 30px;
+}
+.bottoms .bottom .frs{
+    border: 2px solid #1D242E;
+}
+
+.bottoms .tops .one{
+    border: 2px solid #1D242E;
+    width: 500px;
+    margin: 30px;
+}
+.bottoms .tops .frs{
+        border: 2px solid #1D242E;
+}
+
+.bottoms .tops .one .frs .bottom{
+    padding-left: 40px; 
+}
+
+.bottoms .tops{
+    display: flex;
+    align-items: center;
+    justify-self: space-between;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border-radius: 12px;
+    flex-direction: row;
+    width: max-content;
+    
+}
