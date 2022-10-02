@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="side-menu">
+        <div class="titles">
+        <span class="logo">Prefil</span>
+        </div>
+        
+    
+    <!--For the list of items in the dashboard-->
+    
+    <ul class="nav-links">
+       <li>
+        <a href="#">
+            <i class="uil uil-bars"></i>
+            <span class="dash">Dashboard</span>
+        </a>
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-file-medical-alt"></i>
+            <span class="dash">Status</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-analytics"></i>
+            <span class="dash">Report</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-clipboard-notes"></i>
+            <span class="dash">Appointments</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-calendar-alt"></i>
+            <span class="dash">Post Announcement</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-mobile-android-alt"></i>
+            <span class="dash">Contact Establishment</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-bell"></i>
+            <span class="dash">Notification</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-signout"></i>
+            <span class="dash">Log out</span>
+       </a> 
+       </li>
+       <li>
+        <a href="#">
+            <i class="uil uil-wrench"></i>
+            <span class="dash">Technical Help</span>
+       </a> 
+       </li>
+    </ul>
+    </div>
+    <!--For the body-->    
+    <section class="Upper">
+    <nav>
+        <div class="sidebarBut">
+            <i class="uil uil-bars sidebarBtn"></i>
+            <span class="dashboard">Appointments</span>
+        </div>
+    </nav>
+     <!--For Calendar-->
+     <div class="calendar">
+        <p>Date Range</p>
+    <input type="text" name="daterange" value="01/01/2018 - 01/15/2018" />
+    <script>
+        $(function() {
+          $('input[name="daterange"]').daterangepicker({
+            opens: 'left'
+          }, function(start, end, label) {
+            console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+          });
+        });
+        </script>
+        </div>
+
+
+    <div class="table">
+        <div class="tables">
+            <table>
+                <thead>
+                <tr>
+                    <th>Fullname</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>Registration date</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+            </tbody>
+            </table>
+            </div>
+    </div>
+    </section>
+</body>
+</html>

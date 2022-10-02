@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #e8eef5;
+    width: 100%;
+}
+/* For the menu */
+.side-menu{
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background-color: #283342;
+    transition: all 0.5s ease;
+}
+.side-menu.active{
+    width: 60px;
+
+}
+.side-menu .titles{
+    padding-top: 10px;
+    height: 50px;
+    width: 100%;
+    background-color:#1D242E;
+}
+.side-menu .titles .logo{
+    padding-left: 40px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+.side-menu .nav-links{
+    margin-top: 16px;
+}
+.side-menu .nav-links li{
+    height: 50px;
+    width: 100%;
+    list-style-type:none;
+}
+.side-menu .nav-links li a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    
+}
+.side-menu .nav-links li a:hover{
+    background:#1D242E;
+}
+.side-menu .nav-links li a i{
+    min-width: 60px;
+    height: 100%;
+   text-align: center;
+   color: azure;
+   font-size: 20px;
+   padding-top: 5px;
+}
+.side-menu .nav-links li a .dash{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+/* For the upper title */
+.Upper{
+    background: #e8eef5 ;
+    position: relative;
+    min-height: 100vh;
+    left: 240px;
+    height: 100%;
+    width: 100%;
+
+}
+.Upper nav{
+    height: 80px;
+    width: 100%;
+    left: 240px;
+    background-color: rgb(243, 242, 242) ;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+} 
+.Upper nav .sidebarBut {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Upper nav .sidebarBut span{
+    padding-left: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+.Upper .home-content{
+    position: relative;
+}
+.home-content .add-patient button{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #f0a762;
+    border: 2px solid #f0a762;
+    padding: 10px 30px;
+
+}
